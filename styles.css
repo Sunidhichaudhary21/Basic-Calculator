@@ -1,0 +1,56 @@
+/* give styles to calculator */
+body{
+    background-color: rgb(255, 0, 157);
+}
+.calculator {
+    border: 5px solid black;
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    padding: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+    position: relative;
+    top: 25vh;
+}
+
+/* give styles to button */
+
+button {
+    padding: 20px;
+    font-size: 8px;
+}
+
+/* give styles to display */
+
+.display {
+    grid-column: span 4;
+    padding: 15px;
+    text-align: right;
+    background-color:rgb(101, 21, 135);
+    border: 2px double black;
+    font-size: 40px;
+    border-radius: 20px;
+}
+
+/* give styles to operator number clear equal */
+
+.operator, .number, .clear, .equal {
+    background-color: #7daf4c; /* Green */
+    color: rgb(25, 23, 25);
+    border: 2px solid rgb(197, 43, 214);
+    border-radius: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+/* apply hover in operator number clear equal*/
+
+.operator:hover, .number:hover, .clear:hover, .equal:hover {
+    background-color: #45a049;
+}

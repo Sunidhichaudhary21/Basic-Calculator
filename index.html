@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Calculator</title>
+
+    <!-- link here CSS files as styles.css -->
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- create calculator -->
+
+    <div class="calculator">
+      <!-- creating display and display 0 as a initial value -->
+
+      <div class="display" id="display">0</div>
+
+      <!-- create a different button for operator  -->
+
+      <button class="operator" value="+" onclick="addToDisplay('+')">+</button>
+      <button class="operator" value="-" onclick="addToDisplay('-')">-</button>
+      <button class="operator" value="*" onclick="addToDisplay('*')">*</button>
+      <button class="operator" value="/" onclick="addToDisplay('/')">/</button>
+
+      <!-- create a different digit button for enter the value -->
+
+      <button class="number" value="7" onclick="addToDisplay('7')">7</button>
+      <button class="number" value="8" onclick="addToDisplay('8')">8</button>
+      <button class="number" value="9" onclick="addToDisplay('9')">9</button>
+      <button class="number" value="4" onclick="addToDisplay('4')">4</button>
+      <button class="number" value="5" onclick="addToDisplay('5')">5</button>
+      <button class="number" value="6" onclick="addToDisplay('6')">6</button>
+      <button class="number" value="1" onclick="addToDisplay('1')">1</button>
+      <button class="number" value="2" onclick="addToDisplay('2')">2</button>
+      <button class="number" value="3" onclick="addToDisplay('3')">3</button>
+      <button class="number" value="0" onclick="addToDisplay('0')">0</button>
+
+      <!-- create a clear button to clear the display -->
+
+      <button class="clear" onclick="clearDisplay()">C</button>
+
+      <!-- create a equal button to obtain the result of a given values -->
+
+      <button class="equal" onclick="calculate()">=</button>
+    </div>
+
+    <!-- link here javascripts file as scripts.js -->
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
