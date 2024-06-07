@@ -1,1 +1,2 @@
 # Basic-Calculator
+This project is a basic calculator web application developed as part of an internship project assigned by Codsoft. It allows users to perform simple arithmetic operations such as addition, subtraction, multiplication, and division. The calculator interface is designed using HTML and styled using CSS. JavaScript is used to handle user input, perform calculations, and update the display accordingly.
